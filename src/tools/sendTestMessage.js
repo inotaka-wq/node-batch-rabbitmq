@@ -1,9 +1,11 @@
 import amqp from "amqplib";
 
-const queue = "next-batch";
+// const queue = "next-batch";
+const queue = "user_insert";
+const randomEmail = `taro+${Date.now()}@example.com`;
 const message = {
   name: "Taro",
-  email: "taro@example.com",
+  email: `taro+${Date.now()}@example.com`,
 };
 
 const send = async () => {
