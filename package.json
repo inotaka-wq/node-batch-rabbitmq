@@ -1,0 +1,13 @@
+{
+  "name": "batch-rabbitmq",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "RabbitMQ をトリガーに Node.js + Sequelize (MySQL) でバッチ処理を実行し、処理完了後に次のバッチを RabbitMQ 経由で起動する構成。DDD + オニオンアーキテクチャで設計。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
